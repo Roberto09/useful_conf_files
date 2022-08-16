@@ -1,0 +1,78 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "hack.hhastLintMode": "open-files",
+    "workbench.tree.indent": 30,
+    "python.analysis.diagnosticPublishDelay": 200,
+    "jupyter.jupyterServerType": "remote",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vim.easymotion": true,
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "vspacecode.space"
+            ]
+        },
+        {
+            "before": [
+                ","
+            ],
+            "commands": [
+                "vspacecode.space",
+                {
+                    "command": "whichkey.triggerKey",
+                    "args": "m"
+                }
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "vspacecode.space"
+            ]
+        },
+        {
+            "before": [
+                ","
+            ],
+            "commands": [
+                "vspacecode.space",
+                {
+                    "command": "whichkey.triggerKey",
+                    "args": "m"
+                }
+            ]
+        }
+    ],
+    "screencastMode.onlyKeyboardShortcuts": true,
+    "screencastMode.mouseIndicatorColor": "#FF000000",
+    "screencastMode.fontSize": 20,
+    "screencastMode.verticalOffset": 10,
+    "vspacecode.bindingOverrides": [
+    
+        {
+            "keys": "f.T",
+            "name": "hide-sidebar",
+            "type": "command",
+            "command": "workbench.action.toggleSidebarVisibility",
+        }
+    ],
+    "python.linting.pylintArgs": [
+        "--generated-members",
+        "torch.*"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": false,
+    "python.linting.lintOnSave": false,
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Dracula",
+    "python.pythonPath": "/home/roberto/anaconda3/envs/dl_ml/bin/python",
+    "notebook.lineNumbers": "on"
+}
